@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Kodible</string>
+    <string name="welcome">Welcome</string>
+    <string name="kodible">Kodible</string>
+    <string name="parent_register">Parent Register</string>
+    <string name="ready_to_help_your_child_learn_coding">"Ready to help your child learn coding"</string>
+    <string name="new_here">New here</string>
+    <string name="register">Register</string>
+    <string name="title_activity_parent_login">ParentLogin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+</resources>

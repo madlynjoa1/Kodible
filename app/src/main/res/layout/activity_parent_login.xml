@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundkodible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kodible"
+            android:textColor="@color/white"
+            android:fontFamily="@font/kanit"
+            android:textSize="35sp">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parent Register"
+            android:textColor="@color/yellowDark"
+            android:fontFamily="@font/kanit"
+            android:textSize="50sp">
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/regUserNameET"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Username"
+            android:textSize="30sp"
+            android:padding="5dp"
+            />
+        <EditText
+            android:id="@+id/regEmailET"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:hint="Email"
+            android:textSize="30sp"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+
+
+            />
+        <EditText
+            android:id="@+id/regPasswordET"
+            android:layout_width="300dp"
+            android:padding="5dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:textSize="30sp"/>
+        <EditText
+            android:id="@+id/regComPasswordET"
+            android:layout_width="300dp"
+            android:padding="5dp"
+            android:layout_height="60dp"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:hint="Comfirm Password"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/regButtonB"
+            android:layout_width="160dp"
+            android:layout_height="70dp"
+            android:text="@string/login"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40sp"
+            android:background="@color/grey">
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/kanit"
+            android:text="@string/new_here"
+            android:layout_marginRight="5dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/loginRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:textSize="33sp"
+            android:textColor="@color/yellow">
+
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>
