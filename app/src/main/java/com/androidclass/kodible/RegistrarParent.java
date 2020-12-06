@@ -42,6 +42,7 @@ public class RegistrarParent extends AppCompatActivity {
         confirmPassRegister=findViewById(R.id.regComPassword);
         registerButton=findViewById(R.id.registerbutton);
         loginTV=findViewById(R.id.login);
+
         loginTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -49,18 +50,23 @@ public class RegistrarParent extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        String regexPassword = "(?=.*[a-z])(?=.*[A-Z])(?=.*[\\d])(?=.*[~`!@#\\$%\\^&\\*\\(\\)\\-_\\+=\\{\\}\\[\\]\\|\\;:\"<>,./\\?]).{1,}";
+        awesomeValidation.addValidation(RegistrarParent.this, R.id.regEmail, android.util.Patterns.EMAIL_ADDRESS, R.string.err_email);
+        awesomeValidation.addValidation(RegistrarParent.this, R.id.regpassword,regexPassword,R.string.err_pass);
+        awesomeValidation.addValidation(RegistrarParent.this, R.id.regComPassword,regexPassword,R.string.err_comfirm);
+
+
 
 
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(TextUtils.isEmpty(userNameRegister.getText().toString()) || TextUtils.isEmpty(emailRegister.getText().toString()) ||
-                        TextUtils.isEmpty(passwordRegister.getText().toString()) || TextUtils.isEmpty(confirmPassRegister.getText().toString())){
+                if( TextUtils.isEmpty(emailRegister.getText().toString()) || TextUtils.isEmpty(passwordRegister.getText().toString()) || TextUtils.isEmpty(confirmPassRegister.getText().toString())){
                     Toast.makeText(RegistrarParent.this, "fields cannot be empty", Toast.LENGTH_SHORT).show();
                 }
                 else if(awesomeValidation.validate()) {
                     //get user input to strings
-                    String userNameValidate=userNameRegister.getText().toString();
+
                     String emailValidate= emailRegister.getText().toString();
                     String passwordValidate=passwordRegister.getText().toString();
                     String confirmPasswordValidate=confirmPassRegister.getText().toString();
@@ -71,7 +77,7 @@ public class RegistrarParent extends AppCompatActivity {
                         long val=database.addUser(emailRegister.getText().toString(),passwordRegister.getText().toString());
                         Intent registerRegIntent = new Intent(RegistrarParent.this, MainActivity.class);
                         startActivity(registerRegIntent);
-                    }
+                  }
                     else{
                         Toast.makeText(getApplicationContext(),"Password don't match", Toast.LENGTH_LONG).show();
                     }

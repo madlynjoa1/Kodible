@@ -9,229 +9,229 @@
     android:background="@drawable/backgroundkodible"
     >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginTop="5dp"
-            android:gravity="center">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:gravity="center">-->
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:fontFamily="@font/kanit"
-                android:text="Score"
-                android:textSize="70dp">
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:fontFamily="@font/kanit"-->
+<!--                android:text="Score"-->
+<!--                android:textSize="70dp">-->
 
-            </TextView>
+<!--            </TextView>-->
 
-        </LinearLayout>
+<!--        </LinearLayout>-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
 
-            <TextView
+<!--            <TextView-->
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/game_1"
-                android:textColor="@color/white"
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/game_1"-->
+<!--                android:textColor="@color/white"-->
 
-                android:fontFamily="@font/kanit"
-                android:layout_marginTop="5dp"
-                android:textSize="35dp">
+<!--                android:fontFamily="@font/kanit"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="35dp">-->
 
-            </TextView>
+<!--            </TextView>-->
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="35dp"
-                    android:fontFamily="@font/kanit"
-                    android:layout_marginRight="5dp"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_gravity="center">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textSize="35dp"-->
+<!--                    android:fontFamily="@font/kanit"-->
+<!--                    android:layout_marginRight="5dp"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textStyle="bold"-->
 
-                    android:text="@string/level1"
+<!--                    android:text="@string/level1"-->
 
-                    >
-                </TextView>
+<!--                    >-->
+<!--                </TextView>-->
 
-                <TextView
-                    android:id="@+id/textView_shapesLevel1Score"
-                    android:layout_width="200dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/score"
-                    android:padding="5dp"
-                    android:textSize="25dp" />
-            </LinearLayout>
+<!--                <TextView-->
+<!--                    android:id="@+id/textView_shapesLevel1Score"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="@string/score"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:textSize="25dp" />-->
+<!--            </LinearLayout>-->
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_gravity="center">-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
 
-                    android:textColor="@color/white"
-                    android:textSize="30dp"
-                    android:fontFamily="@font/kanit"
-                    android:text="Level 2: "
-                    android:textStyle="bold"
-                    android:layout_marginRight="5dp">
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="30dp"-->
+<!--                    android:fontFamily="@font/kanit"-->
+<!--                    android:text="Level 2: "-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:layout_marginRight="5dp">-->
 
-                </TextView>
-                <TextView
-                    android:id="@+id/editText_shapesLevel2Score"
-                    android:layout_width="200dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_height="wrap_content"
-                    android:hint="score"
-                    android:padding="5dp"
-                    android:textSize="25dp" />
+<!--                </TextView>-->
+<!--                <TextView-->
+<!--                    android:id="@+id/editText_shapesLevel2Score"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="score"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:textSize="25dp" />-->
 
-            </LinearLayout>
+<!--            </LinearLayout>-->
 
-            <LinearLayout
-                android:layout_marginTop="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+<!--            <LinearLayout-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:textColor="@color/white"
-                    android:textSize="35dp"
-                    android:fontFamily="@font/kanit"
-                    android:text="Game 2: "
-                    >
-                </TextView>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:textColor="@color/white"-->
+<!--                    android:textSize="35dp"-->
+<!--                    android:fontFamily="@font/kanit"-->
+<!--                    android:text="Game 2: "-->
+<!--                    >-->
+<!--                </TextView>-->
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/level1"
-                        android:textStyle="bold"
-                        android:textColor="@color/white"
-                        android:textSize="35dp"
-                        android:fontFamily="@font/kanit"
-                        android:layout_marginRight="5dp">
-                    </TextView>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_gravity="center">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="@string/level1"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="35dp"-->
+<!--                        android:fontFamily="@font/kanit"-->
+<!--                        android:layout_marginRight="5dp">-->
+<!--                    </TextView>-->
 
-                    <TextView
-                        android:id="@+id/editText_seaWorldLevel1Score"
-                        android:layout_width="200dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/score"
-                        android:padding="5dp"
-                        android:textSize="25dp" />
-                </LinearLayout>
+<!--                    <TextView-->
+<!--                        android:id="@+id/editText_seaWorldLevel1Score"-->
+<!--                        android:layout_width="200dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:hint="@string/score"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:textSize="25dp" />-->
+<!--                </LinearLayout>-->
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_gravity="center">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_gravity="center">-->
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/white"
-                        android:textSize="35dp"
-                        android:fontFamily="@font/kanit"
-                        android:text="Level 2: "
-                        android:textStyle="bold"
-                        android:layout_marginRight="5dp">
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="35dp"-->
+<!--                        android:fontFamily="@font/kanit"-->
+<!--                        android:text="Level 2: "-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_marginRight="5dp">-->
 
-                    </TextView>
+<!--                    </TextView>-->
 
-                    <TextView
-                        android:id="@+id/editText_seaWorldLevel2Score"
-                        android:layout_width="200dp"
-                        android:layout_marginLeft="10dp"
-                        android:textColor="@color/white"
-                        android:fontFamily="@font/kanit"
-                        android:textStyle="bold"
-                        android:layout_height="wrap_content"
-                        android:hint="@string/score"
-                        android:padding="5dp"
-                        android:textSize="25dp" />
-                </LinearLayout>
-
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="25dp"
-                    android:textColor="@color/black"
-                    android:text=""
-                    android:textStyle="bold"
-                    android:fontFamily="@font/kanit"
-                    android:layout_marginRight="5dp">
-
-                </TextView>
-
-                <TextView
-                    android:id="@+id/editText_animalWorldLevel2Score"
-                    android:layout_width="200dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/score"
-                    android:padding="5dp"
-                    android:textSize="25dp" />
+<!--                    <TextView-->
+<!--                        android:id="@+id/editText_seaWorldLevel2Score"-->
+<!--                        android:layout_width="200dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:fontFamily="@font/kanit"-->
+<!--                        android:textStyle="bold"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:hint="@string/score"-->
+<!--                        android:padding="5dp"-->
+<!--                        android:textSize="25dp" />-->
+<!--                </LinearLayout>-->
 
 
 
-            </LinearLayout>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:text="Chart"
-                android:layout_gravity="center"
+<!--            </LinearLayout>-->
 
-                >
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_gravity="center">-->
 
-            </Button>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textSize="25dp"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:text=""-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:fontFamily="@font/kanit"-->
+<!--                    android:layout_marginRight="5dp">-->
+
+<!--                </TextView>-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/editText_animalWorldLevel2Score"-->
+<!--                    android:layout_width="200dp"-->
+<!--                    android:layout_marginLeft="10dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:hint="@string/score"-->
+<!--                    android:padding="5dp"-->
+<!--                    android:textSize="25dp" />-->
 
 
 
-        </LinearLayout>
+<!--            </LinearLayout>-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="Chart"-->
+<!--                android:layout_gravity="center"-->
 
-    </LinearLayout>
+<!--                >-->
+
+<!--            </Button>-->
+
+
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
 
 
 

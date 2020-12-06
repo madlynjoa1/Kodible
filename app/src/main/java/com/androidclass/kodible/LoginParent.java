@@ -36,6 +36,7 @@ public class LoginParent extends AppCompatActivity {
         passwordET=findViewById(R.id.loginPasswordET);
         buttonLogin=findViewById(R.id.loginButtonB);
         registerTV=findViewById(R.id.loginRegister);
+
         registerTV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
