@@ -2,14 +2,14 @@
 <resources>
     <color name="white">#FFFFFF</color>
     <color name="lightPink">#ffd5ec</color>
+    <color name="pink">#F58866</color>
     <color name="lightBlue">#a3ffff</color>
     <color name="yellow">#fff0a9</color>
     <color name="yellowDark">#FFD41F</color>
-    <color name="blueBackground">#66edff</color>
-    <color name="purpleBackgroud">#da97ff</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimaryDark">#0B2D6A</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="grey">#E5EAF5</color>
     <color name="black">#000000</color>
     <color name="stev">#FF60F6</color>
+    <color name="red">#B31D19</color>
 </resources>

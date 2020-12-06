@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".RegistrarParent"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Kodible"
+            android:text="@string/kodible"
             android:textColor="@color/white"
             android:fontFamily="@font/kanit"
             android:textSize="35sp">
@@ -32,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Parent Register"
+            android:text="@string/parent_register"
             android:textColor="@color/yellowDark"
             android:fontFamily="@font/kanit"
             android:textSize="50sp">
@@ -42,24 +43,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <EditText
-            android:id="@+id/regUserNameET"
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:background="@color/white"
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
-            android:hint="Username"
-            android:textSize="30sp"
-            android:padding="5dp"
-            />
-        <EditText
-            android:id="@+id/regEmailET"
+            android:id="@+id/regEmail"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:background="@color/white"
             android:layout_gravity="center"
-            android:hint="Email"
+            android:hint="@string/email"
             android:textSize="30sp"
             android:layout_marginTop="20dp"
             android:padding="5dp"
@@ -67,34 +58,34 @@
 
             />
         <EditText
-            android:id="@+id/regPasswordET"
+            android:id="@+id/regpassword"
             android:layout_width="300dp"
             android:padding="5dp"
             android:layout_height="60dp"
             android:background="@color/white"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
-            android:hint="Password"
+            android:hint="@string/password"
             android:textSize="30sp"/>
         <EditText
-            android:id="@+id/regComPasswordET"
+            android:id="@+id/regComPassword"
             android:layout_width="300dp"
             android:padding="5dp"
             android:layout_height="60dp"
             android:background="@color/white"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
-            android:hint="Comfirm Password"
+            android:hint="@string/comfirm_password"
             android:textSize="30sp"/>
 
         <Button
-            android:id="@+id/regButtonB"
+            android:id="@+id/registerbutton"
             android:layout_width="160dp"
             android:layout_height="70dp"
-            android:text="@string/login"
+            android:text="@string/register"
             android:textSize="30sp"
             android:layout_gravity="center"
-            android:layout_marginTop="40sp"
+            android:layout_marginTop="20sp"
             android:background="@color/grey">
         </Button>
     </LinearLayout>
@@ -106,18 +97,18 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="27sp"
-            android:textColor="@color/black"
+            android:textSize="29sp"
+            android:textColor="@color/white"
             android:fontFamily="@font/kanit"
-            android:text="@string/new_here"
+            android:text="@string/have_an_account"
             android:layout_marginRight="5dp">
 
         </TextView>
         <TextView
-            android:id="@+id/loginRegister"
+            android:id="@+id/login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/register"
+            android:text="@string/login"
             android:layout_marginLeft="5dp"
             android:textStyle="bold"
             android:textSize="33sp"
@@ -125,5 +116,6 @@
 
         </TextView>
     </LinearLayout>
+
 
 </LinearLayout>

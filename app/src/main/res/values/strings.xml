@@ -4,7 +4,7 @@
     <string name="kodible">Kodible</string>
     <string name="parent_register">Parent Register</string>
     <string name="ready_to_help_your_child_learn_coding">"Ready to help your child learn coding"</string>
-    <string name="new_here">New here</string>
+    <string name="new_here">New Here?</string>
     <string name="register">Register</string>
     <string name="title_activity_parent_login">ParentLogin</string>
     <string name="prompt_email">Email</string>
@@ -14,5 +14,45 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="add_child">Add Child</string>
+    <string name="kids_register">Kids Register</string>
+    <string name="kids_kodible">Kids Kodible</string>
+    <string name="have_an_account">Have an account</string>
+
+    <string name="username">Username</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="err_pass">Password need 1 capital letter and special char</string>
+    <string name="err_email">Incorrect format of email</string>
+    <string name="my_games">My Games</string>
+    <string name="game_1">Game 1</string>
+    <string name="game3">Game3</string>
+    <string name="game2">Game2</string>
+    <string name="game1">Game1</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="score">Score:</string>
+    <string name="start">Start</string>
+    <string name="up">up</string>
+    <string name="your_score">Your Score!</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="score_0">Score: 0</string>
+    <string name="play">Play</string>
+    <string name="parent_login">Parent Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="account_type">Account Type:</string>
     <string name="login">Login</string>
+
+    <string name="comfirm_password">Comfirm Password</string>
+    <string name="_0">0</string>
+
+    <string name="button">Button</string>
+
+    <string name="level1">Level1:</string>
+    <string-array name="accountType">
+        <item>Parent</item>
+        <item>Child</item>
+    </string-array>
 </resources>
